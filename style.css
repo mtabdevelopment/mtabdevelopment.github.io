@@ -55,7 +55,8 @@ section{
     cursor: pointer;
     margin-top: 1rem;
     font-size: 2rem;
-    border-radius: 5rem;   
+    border-radius: 5rem;
+    width: 80%;   
 }
 .btn:hover {
     padding: .7rem 3rem;
@@ -67,6 +68,7 @@ section{
     border-radius: 5rem;
     font-weight: bolder;
     transition: all .5s ease .2s;
+    width: 80%;
 }
 .heading{
     text-align: center;
@@ -170,9 +172,9 @@ header .navbar ul li a:hover{
     justify-content: center;
     flex-flow: column;
     padding:0 15rem; 
-    
+    width: 100%;
     background-size: contain;
-    height: 100hv;    
+    height: 100%;    
 }
 .home img{
     float: right;
@@ -184,20 +186,20 @@ header .navbar ul li a:hover{
 }
 
 .home h3{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color:rgb(219, 219, 219);
     z-index: 1;
 }
 
 .home h1{
-    font-size:5rem;
+    font-size:3.5rem;
     color:rgb(219, 219, 219);
     z-index: 1;
 }
 
 .home h1 span{
     color:var(--blue);
-    font-size: 5rem;
+    font-size:3rem;
     z-index: 1;
 }
 
@@ -209,8 +211,14 @@ header .navbar ul li a:hover{
     z-index: 1;
 }
 .home p{
-    font-size:2rem;
+    font-size:1.7rem;
     color:rgb(219, 219, 219);
+    padding: 1rem 0;
+    z-index: 1;
+}
+.home p a{
+    font-size: 1.7rem;
+    color: var(--blue);
     padding: 1rem 0;
     z-index: 1;
 }
@@ -249,7 +257,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .counter .box{
-    width:20rem;
+    width:19rem;
     background:#222;
     text-align: center;
     padding: 2rem;
