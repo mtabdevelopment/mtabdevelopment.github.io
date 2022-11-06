@@ -211,13 +211,13 @@ header .navbar ul li a:hover{
     z-index: 1;
 }
 .home p{
-    font-size:1.7rem;
+    font-size:1.9rem;
     color:rgb(219, 219, 219);
     padding: 1rem 0;
     z-index: 1;
 }
 .home p a{
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     color: var(--blue);
     padding: 1rem 0;
     z-index: 1;
