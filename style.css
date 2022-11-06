@@ -388,6 +388,18 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+/* Footer  */
+
+.footer {
+    max-width: 100%;
+    text-align: center;
+    background: linear-gradient(to right, rgb(11 13 24)1%, rgba(5, 7, 14, 0.801),rgb(10, 11, 20));
+    color: rgb(151, 150, 150);
+    font-size: small;
+    font-weight: bolder;
+    padding-top: 2px;
+}
+
 /* media queries  */
 
 @media (max-width:1200px){
