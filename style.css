@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
 
 :root{
-    --blue:#49a8b3;
+    --blue:rgb(63, 172, 184);
 }
 
 *{
@@ -76,11 +76,12 @@ section{
     font-size: 5.5rem;
     padding:1rem;
     border-bottom: .1rem solid rgba(255, 255, 255, 0.411);
-    color:#fff;
+    color:rgba(230, 230, 230, 0.918);
 }
 
 .heading span{
     color:var(--blue);
+    
 }
 
 header{
@@ -156,14 +157,14 @@ header .navbar ul li a:hover{
     cursor: pointer;
     font-size: 2.5rem;
     padding:1rem 1.5rem;
-    z-index: 1000;
+    z-index: 1;
     display: none;
     text-transform: capitalize;
 }
 .bgcolor-overlay{
-    width: 100%;
-    height: 100%;
-    background:linear-gradient(to top right, rgb(11 13 24)40%, rgb(30, 37, 68),rgb(39, 51, 95));
+    width: 105%;
+    height: 680px;
+    background:linear-gradient(to top right, rgb(11, 13, 24)40%,rgb(18, 23, 44),rgb(14, 18, 32));
     opacity: .8;
     position: absolute;
 }
@@ -198,7 +199,7 @@ header .navbar ul li a:hover{
 }
 
 .home h1 span{
-    color:var(--blue);
+    color:rgba(0, 163, 204, 0.918);
     font-size:3rem;
     z-index: 1;
 }
@@ -223,18 +224,21 @@ header .navbar ul li a:hover{
     z-index: 1;
 }
 
+
 .about .row{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding:1rem 0;
+    z-index: 1;
 }
 
 .about .row .info{
     flex:1 1 48rem;
     padding:2rem 1rem;
     padding-left: 6rem;
+    z-index: 1;
 }
 
 .about .row .info h3{
@@ -242,11 +246,13 @@ header .navbar ul li a:hover{
     color: rgb(0, 163, 204);
     padding:1rem 0;
     font-weight: normal;
+    z-index: 1;
 }
 
 .about .row .info h3 span{
     color:#eee;
     padding:0 .5rem;
+    z-index: 1;
 }
 
 .about .row .counter{
@@ -254,6 +260,7 @@ header .navbar ul li a:hover{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    z-index: 1;
 }
 
 .about .row .counter .box{
@@ -263,16 +270,19 @@ header .navbar ul li a:hover{
     padding: 2rem;
     margin:2rem;
     border-radius: 10px;
+    z-index: 1;
 }
 
 .about .row .counter .box span{
     font-size: 4rem;
     color:var(--blue);
+    z-index: 1;
 }
 
 .about .row .counter .box h3{
     font-size: 2rem;
     color:#fff;
+    z-index: 1;
 }
 
 .education .box-container{
@@ -312,7 +322,7 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 .education .box-container .box p a{
-    font-size: 14.px;
+    font-size: 14.5px;
     color: var(--blue);
     padding: 1rem 0;
 }
@@ -399,6 +409,7 @@ header .navbar ul li a:hover{
     font-weight: bolder;
     padding-top: 2px;
 }
+
 
 /* media queries  */
 
